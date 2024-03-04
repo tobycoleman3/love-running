@@ -78,7 +78,9 @@ nav{
 main {background-color: lightblue; 
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 77git add .
+    git commit -m "make logo larger and push main down to show under larger header"
+    px;
 }
 
 /* Footer */
@@ -103,4 +105,22 @@ footer {background-color: orange;}
     .nav-toggle-label{
         display: none;
     }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main Content */
+    main {
+        /* push main content down to accomodate larger header */
+        margin-top: 79px;
+    }
+}
+/* large devices (laptops and higher */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+    }
+    
 }
