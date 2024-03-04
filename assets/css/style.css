@@ -1,3 +1,8 @@
+/* Google Fonts Style */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap')
+</style>
+
 /* Asterisk wildcard selector to override defult styles added by the browser */
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
