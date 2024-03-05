@@ -75,12 +75,16 @@ nav{
     font-size: 2rem;
 }
 /* Main */
-main {background-color: lightblue; 
+main {
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 77git add .
-    git commit -m "make logo larger and push main down to show under larger header"
-    px;
+    margin-top: 47px;
+}
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
 }
 
 /* Footer */
@@ -94,7 +98,7 @@ main {background-color: lightblue;
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #3a3a3a
 }
 
 /* Media query: tablets and larger (768px and up) */
