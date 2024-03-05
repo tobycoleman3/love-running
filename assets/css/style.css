@@ -76,15 +76,17 @@ nav{
 }
 /* Main */
 main {
-    /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+   
 }
+    /* make main element take up any surplus space to push footer down */
+    
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background-color: lightgreen;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -125,11 +127,7 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    /* Main Content */
-    main {
-        /* push main content down to accomodate larger header */
-        margin-top: 79px;
-    }
+
 }
 /* large devices (laptops and higher */
 @media screen and (min-width: 992px) {
